@@ -11,4 +11,10 @@ public class Controller {
 	{
 		return "hello  dd  dd   ";
 	}
+	
+	@GetMapping("/hello1")
+	public String hello1()
+	{
+		return "hello  dd  dd   ";
+	}
 }
